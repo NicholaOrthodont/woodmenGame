@@ -24,7 +24,9 @@ class RecordsViewController: UIViewController {
         tableView.translatesAutoresizingMaskIntoConstraints = false
         return tableView
     }()
-    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         data = RecordManager.shared.getScoreRecords().reversed()

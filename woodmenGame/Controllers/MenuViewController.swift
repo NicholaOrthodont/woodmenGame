@@ -21,7 +21,9 @@ class MenuViewController: UIViewController {
     var leaderboardButton: UIButton!
     var backgroundImageView: UIImageView!
     
-    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         playBackgroundMusic()
