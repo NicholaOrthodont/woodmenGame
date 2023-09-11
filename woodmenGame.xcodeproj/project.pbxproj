@@ -9,14 +9,8 @@
 /* Begin PBXBuildFile section */
 		84681E092AAF13060012E1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E082AAF13060012E1DB /* AppDelegate.swift */; };
 		84681E0F2AAF13060012E1DB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E0E2AAF13060012E1DB /* GameScene.swift */; };
-		84681E112AAF13060012E1DB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E102AAF13060012E1DB /* GameViewController.swift */; };
 		84681E192AAF13090012E1DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84681E172AAF13090012E1DB /* LaunchScreen.storyboard */; };
 		84681E202AAF13610012E1DB /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E1F2AAF13600012E1DB /* Vibration.swift */; };
-		84681E252AAF137B0012E1DB /* record.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84681E212AAF137B0012E1DB /* record.mp3 */; };
-		84681E262AAF137B0012E1DB /* cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84681E222AAF137B0012E1DB /* cut.mp3 */; };
-		84681E272AAF137B0012E1DB /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84681E232AAF137B0012E1DB /* background.mp3 */; };
-		84681E282AAF137B0012E1DB /* ough.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84681E242AAF137B0012E1DB /* ough.mp3 */; };
-		84681E2B2AAF13920012E1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84681E292AAF13920012E1DB /* Assets.xcassets */; };
 		84681E2C2AAF13920012E1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84681E2A2AAF13920012E1DB /* Main.storyboard */; };
 		84681E2E2AAF13A60012E1DB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E2D2AAF13A60012E1DB /* CustomTableViewCell.swift */; };
 		84681E362AAF13E10012E1DB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E302AAF13E10012E1DB /* GameViewController.swift */; };
@@ -26,6 +20,11 @@
 		84681E3A2AAF13E10012E1DB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E342AAF13E10012E1DB /* MenuViewController.swift */; };
 		84681E3B2AAF13E10012E1DB /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E352AAF13E10012E1DB /* LoadingViewController.swift */; };
 		84681E3D2AAF13EA0012E1DB /* RecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E3C2AAF13EA0012E1DB /* RecordManager.swift */; };
+		847D16DC2AAF2A98002960DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84681E292AAF13920012E1DB /* Assets.xcassets */; };
+		847D16DD2AAF2A98002960DA /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84681E232AAF137B0012E1DB /* background.mp3 */; };
+		847D16DE2AAF2A98002960DA /* cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84681E222AAF137B0012E1DB /* cut.mp3 */; };
+		847D16DF2AAF2A98002960DA /* ough.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84681E242AAF137B0012E1DB /* ough.mp3 */; };
+		847D16E02AAF2A98002960DA /* record.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84681E212AAF137B0012E1DB /* record.mp3 */; };
 		BD3BB1A0E47A9E22043F56C9 /* Pods_woodmenGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F79D6E52A99A20A08B4AD4 /* Pods_woodmenGame.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		84681E052AAF13060012E1DB /* woodmenGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woodmenGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84681E082AAF13060012E1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84681E0E2AAF13060012E1DB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		84681E102AAF13060012E1DB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		84681E182AAF13090012E1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84681E1F2AAF13600012E1DB /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 		84681E212AAF137B0012E1DB /* record.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = record.mp3; sourceTree = "<group>"; };
@@ -53,6 +51,7 @@
 		84681E352AAF13E10012E1DB /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		84681E3C2AAF13EA0012E1DB /* RecordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordManager.swift; sourceTree = "<group>"; };
 		84681E3E2AAF13F70012E1DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847D16DB2AAF28E5002960DA /* woodmenGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = woodmenGame.entitlements; sourceTree = "<group>"; };
 		BB0BC8DC260DC6E6D2BEB78F /* Pods-woodmenGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woodmenGame.release.xcconfig"; path = "Target Support Files/Pods-woodmenGame/Pods-woodmenGame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,10 +97,10 @@
 		84681E072AAF13060012E1DB /* woodmenGame */ = {
 			isa = PBXGroup;
 			children = (
+				847D16DB2AAF28E5002960DA /* woodmenGame.entitlements */,
 				84681E3E2AAF13F70012E1DB /* Info.plist */,
 				84681E082AAF13060012E1DB /* AppDelegate.swift */,
 				84681E0E2AAF13060012E1DB /* GameScene.swift */,
-				84681E102AAF13060012E1DB /* GameViewController.swift */,
 				84681E172AAF13090012E1DB /* LaunchScreen.storyboard */,
 				84681E292AAF13920012E1DB /* Assets.xcassets */,
 				84681E2A2AAF13920012E1DB /* Main.storyboard */,
@@ -198,13 +197,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847D16DC2AAF2A98002960DA /* Assets.xcassets in Resources */,
+				847D16DD2AAF2A98002960DA /* background.mp3 in Resources */,
+				847D16DE2AAF2A98002960DA /* cut.mp3 in Resources */,
+				847D16DF2AAF2A98002960DA /* ough.mp3 in Resources */,
+				847D16E02AAF2A98002960DA /* record.mp3 in Resources */,
 				84681E2C2AAF13920012E1DB /* Main.storyboard in Resources */,
-				84681E282AAF137B0012E1DB /* ough.mp3 in Resources */,
-				84681E262AAF137B0012E1DB /* cut.mp3 in Resources */,
 				84681E192AAF13090012E1DB /* LaunchScreen.storyboard in Resources */,
-				84681E272AAF137B0012E1DB /* background.mp3 in Resources */,
-				84681E2B2AAF13920012E1DB /* Assets.xcassets in Resources */,
-				84681E252AAF137B0012E1DB /* record.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +263,6 @@
 				84681E392AAF13E10012E1DB /* RecordsViewController.swift in Sources */,
 				84681E372AAF13E10012E1DB /* InstructionViewController.swift in Sources */,
 				84681E0F2AAF13060012E1DB /* GameScene.swift in Sources */,
-				84681E112AAF13060012E1DB /* GameViewController.swift in Sources */,
 				84681E362AAF13E10012E1DB /* GameViewController.swift in Sources */,
 				84681E3B2AAF13E10012E1DB /* LoadingViewController.swift in Sources */,
 				84681E092AAF13060012E1DB /* AppDelegate.swift in Sources */,
@@ -406,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = woodmenGame/woodmenGame.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -445,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = woodmenGame/woodmenGame.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
