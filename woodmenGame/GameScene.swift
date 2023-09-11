@@ -15,7 +15,7 @@ class GameScene: SKScene {
     private var oughSoundAction: SKAction!
     
     var homeButton: SKSpriteNode!
-    
+      
     var leftButton: SKSpriteNode!
     var rightButton: SKSpriteNode!
     
@@ -104,6 +104,7 @@ class GameScene: SKScene {
         timerNode.color = .green
         addChild(timerNode)
     }
+      
     
     //MARK: - updateTimer
     @objc func updateTimer() {
