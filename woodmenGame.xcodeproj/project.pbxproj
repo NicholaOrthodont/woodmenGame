@@ -411,7 +411,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 65X357U3TQ;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = /Applications/SwiftProjects/My/Office/woodmenGame/woodmenGame/Info.plist;
+				INFOPLIST_FILE = woodmenGame/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Woodmen Bananza";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -451,7 +451,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 65X357U3TQ;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = /Applications/SwiftProjects/My/Office/woodmenGame/woodmenGame/Info.plist;
+				INFOPLIST_FILE = woodmenGame/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Woodmen Bananza";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
